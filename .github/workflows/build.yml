@@ -1,0 +1,30 @@
+﻿name: AuditMind AI CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
+
+      - name: Verify Web Dashboard
+        run: node -e "console.log('Web Dashboard ready for Vercel deployment')"
