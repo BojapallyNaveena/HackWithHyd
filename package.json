@@ -2,8 +2,5 @@
   "name": "auditmind-ai",
   "version": "1.0.0",
   "description": "AuditMind AI - Autonomous Compliance & Audit Intelligence Agent with Hindsight memory.",
-  "scripts": {
-    "build": "echo 'Vercel static build ready'"
-  },
   "license": "MIT"
 }
