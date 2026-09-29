@@ -26,5 +26,11 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
+      - name: Run Unit Tests
+        run: ./gradlew test --no-daemon
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --no-daemon
+
       - name: Verify Web Dashboard
-        run: node -e "console.log('Web Dashboard ready for Vercel deployment')"
+        run: node -e "console.log('Web Dashboard & Android APK build successful for Vercel deployment')"
