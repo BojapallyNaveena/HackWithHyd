@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuditMind AI - Autonomous Compliance & Audit Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0b0f19; color: #f3f4f6; font-family: system-ui, -apple-system, sans-serif; }
+        .glass-card { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .accent-gradient { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+    <div>
+        <!-- Navbar -->
+        <nav class="border-b border-gray-800 bg-gray-900/50 backdrop-blur sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl accent-gradient flex items-center justify-center font-bold text-xl text-white shadow-lg">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">AuditMind AI</h1>
+                        <p class="text-xs text-gray-400">Powered by Hindsight Persistent Memory</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                        <i class="fa-solid fa-building-columns mr-1"></i> NovaBank (2024-2026)
+                    </span>
+                    <a href="https://github.com/BojapallyNaveena/HackWithHyd" target="_blank" class="px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-sm font-medium transition flex items-center space-x-2">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub Repository</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+            <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
+                The AI Compliance Agent That <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Remembers Why.</span>
+            </h2>
+            <p class="text-lg text-gray-400 max-w-3xl mx-auto mb-8">
+                Turn multi-year audit history, management risk decisions, unverified compensating controls, and remediation promises into persistent institutional intelligence.
+            </p>
+        </div>
+
+        <!-- Interactive Walkthrough Demo -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Scene 1: Memory Contrast -->
+            <div class="glass-card rounded-2xl p-6 shadow-2xl">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-bold text-indigo-300 flex items-center">
+                        <i class="fa-solid fa-code-compare mr-2 text-purple-400"></i> Scene 1: Memory Contrast Engine
+                    </h3>
+                    <span class="text-xs text-gray-400">Live Comparator</span>
+                </div>
+                <p class="text-sm text-gray-300 mb-4">Query: <em>"Have we seen this access-control finding before?"</em></p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-xl bg-red-950/30 border border-red-500/30">
+                        <div class="text-xs font-bold text-red-400 uppercase tracking-wider mb-2">Generic AI (Without Memory)</div>
+                        <p class="text-xs text-gray-300">"This appears to be an access-control finding regarding bastion logins. More historical context or documents are required to determine novelty."</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-emerald-950/30 border border-emerald-500/30">
+                        <div class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">AuditMind AI (With Memory)</div>
+                        <p class="text-xs text-gray-300">"This issue is <strong>NOT new</strong>. It recurred across 2024 (F-104), 2025 (F-204), and 2026 (F-301). The 2024 temporary waiver expired when CyberArk AIX installation failed."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scene 2: Control C-17 Historical Reasoning -->
+            <div class="glass-card rounded-2xl p-6 shadow-2xl">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-lg font-bold text-purple-300 flex items-center">
+                        <i class="fa-solid fa-timeline mr-2 text-indigo-400"></i> Scene 2: "WHY?" Reasoning Chain
+                    </h3>
+                    <span class="text-xs bg-amber-500/20 text-amber-300 px-2.5 py-0.5 rounded-full font-semibold border border-amber-500/30">Control C-17</span>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex items-start space-x-3 p-3 rounded-lg bg-gray-800/60 border border-gray-700/50 text-xs">
+                        <span class="px-2 py-0.5 bg-red-500/20 text-red-300 font-bold rounded">2024</span>
+                        <div>
+                            <strong class="text-gray-200">Finding F-104:</strong> Bastion lacked MFA. CISO Marcus Vance accepted risk temporarily for Project Horizon cloud cutover.
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3 p-3 rounded-lg bg-gray-800/60 border border-gray-700/50 text-xs">
+                        <span class="px-2 py-0.5 bg-amber-500/20 text-amber-300 font-bold rounded">2025</span>
+                        <div>
+                            <strong class="text-gray-200">Finding F-204:</strong> CyberArk agent failed on legacy AIX server. Manual reviews ceased after key analyst departed.
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3 p-3 rounded-lg bg-gray-800/60 border border-gray-700/50 text-xs">
+                        <span class="px-2 py-0.5 bg-purple-500/20 text-purple-300 font-bold rounded">2026</span>
+                        <div>
+                            <strong class="text-gray-200">Finding F-301:</strong> Triple recurrence flagged. 89 unauthenticated root logins logged in 2026.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Architecture & Tech Stack -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+            <div class="glass-card rounded-2xl p-8 shadow-2xl">
+                <h3 class="text-xl font-bold text-center text-gray-200 mb-8">Hindsight Memory Primitives</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-xl bg-gray-800/50 border border-gray-700/60 text-center">
+                        <div class="w-12 h-12 rounded-lg bg-indigo-500/20 text-indigo-400 mx-auto flex items-center justify-center text-xl mb-4"><i class="fa-solid fa-box-archive"></i></div>
+                        <h4 class="font-bold text-indigo-300 mb-2">RETAIN</h4>
+                        <p class="text-xs text-gray-400">Extracts durable audit findings, management waivers, compensating controls, and evidence tagged by year and entity.</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-gray-800/50 border border-gray-700/60 text-center">
+                        <div class="w-12 h-12 rounded-lg bg-purple-500/20 text-purple-400 mx-auto flex items-center justify-center text-xl mb-4"><i class="fa-solid fa-magnifying-glass font-bold"></i></div>
+                        <h4 class="font-bold text-purple-300 mb-2">RECALL</h4>
+                        <p class="text-xs text-gray-400">Multi-dimensional semantic, temporal, tag, and entity graph retrieval across multi-year audit histories.</p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-gray-800/50 border border-gray-700/60 text-center">
+                        <div class="w-12 h-12 rounded-lg bg-pink-500/20 text-pink-400 mx-auto flex items-center justify-center text-xl mb-4"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h4 class="font-bold text-pink-300 mb-2">REFLECT</h4>
+                        <p class="text-xs text-gray-400">Synthesizes systemic root causes across 3-year timelines, connecting abandoned projects with departed personnel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-8 text-center text-xs text-gray-500 bg-gray-950">
+        <p>AuditMind AI &bull; Autonomous Compliance & Audit Intelligence &bull; Ready for Vercel Deployment</p>
+    </footer>
+</body>
+</html>

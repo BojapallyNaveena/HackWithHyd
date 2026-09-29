@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Crest -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,23 L76,31 C76,51 66,68 54,77 C42,68 32,51 32,31 Z" />
+
+    <!-- Inner Shield Infill -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M54,27 L72,33.5 C72,50 63,64 54,72 C45,64 36,50 36,33.5 Z" />
+
+    <!-- Brain / Neural Memory Nodes and Circuits -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,42 C46,38 49,36 54,36 C59,36 62,38 62,42 C62,46 59,48 54,51 L54,55" />
+
+    <!-- Audit Insight & Memory Pulse Ring -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M54,58 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Sharp Confirmation Checkmark / Temporal Arrow -->
+    <path
+        android:strokeColor="#F0FDF4"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M44,49 L51,56 L65,42" />
+
+    <!-- Neural connection dots -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M41,39 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M67,39 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M54,70 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>
